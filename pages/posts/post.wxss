@@ -1,3 +1,8 @@
+page{
+  height: 100%;
+  background-color: #ededed;
+}
+
 swiper, swiper image{
   width:750rpx;
   height: 500rpx;
@@ -9,8 +14,8 @@ swiper, swiper image{
   margin-top: 20rpx;
   margin-bottom: 40rpx;
   background-color: #fff;
-  border-bottom: 1px solid #ededed;
-  border-top:1px solid #ededed;
+  border-bottom: 1px solid #e0e0e0;
+  border-top:1px solid #e0e0e0;
   padding-bottom: 5px;
 }
 

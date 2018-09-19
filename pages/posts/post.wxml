@@ -1,43 +1,30 @@
 <view>
-  <swiper indicator-dots="ture" autoplay="ture" interval="5000">
+  <swiper indicator-dots="ture" autoplay="ture" interval="3000">
     <swiper-item>
-      <image src="/images/posts/banner1.jpg"></image>
+      <image src="../../images/posts/banner/banner1.jpg"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/posts/banner2.jpg"></image>
+      <image src="../../images/posts/banner/banner2.jpg"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/posts/banner3.jpg"></image>
+      <image src="../../images/posts/banner/banner3.jpg"></image>
     </swiper-item>
   </swiper>
-  <view class="post-container">
-    <view class="post-author-date">
-      <image class="post-author" src="/images/posts/user-avatar1.jpg"></image>
-      <text class="post-date">Nov 25 2016</text>
-    </view>
-    <text class="post-title">正是虾肥蟹壮时</text>
-    <image class="post-image" src="/images/posts/pangxie.jpg"></image>
-    <text class="post-content">“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。</text>
-    <view class="post-like">
-      <image class="post-like-image" src="../../images/posts/icon/chakan.png"></image>
-      <text class="post-like-font">48</text>
-      <image class="post-like-image" src="../../images/posts/icon/shoucang.png"></image>
-      <text class="post-like-font">56</text>
-    </view>
-  </view>
+  <block wx:for="{{postKey}}" wx:for-item="item">
     <view class="post-container">
-    <view class="post-author-date">
-      <image class="post-author" src="/images/posts/user-avatar2.png"></image>
-      <text class="post-date">Nov 25 2016</text>
+      <view class="post-author-date">
+        <image wx:if="{{item.img_condition}}" class="post-author" src="{{item.avatar}}"></image>
+        <text class="post-date">{{item.date}}</text>
+      </view>
+      <text class="post-title">{{item.title}}</text>
+      <image class="post-image" src="{{item.image}}"></image>
+      <text class="post-content">{{item.content}}</text>
+      <view class="post-like">
+        <image class="post-like-image" src="../../images/posts/icon/icon_view.png"></image>
+        <text class="post-like-font">{{item.post_view}}</text>
+        <image class="post-like-image" src="../../images/posts/icon/icon_Collection.png"></image>
+        <text class="post-like-font">{{item.post_collection}}</text>
+      </view>
     </view>
-    <text class="post-title">正是虾肥蟹壮时</text>
-    <image class="post-image" src="/images/posts/pangxie2.jpg"></image>
-    <text class="post-content">“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。</text>
-    <view class="post-like">
-      <image class="post-like-image" src="../../images/posts/icon/chakan.png"></image>
-      <text class="post-like-font">32</text>
-      <image class="post-like-image" src="../../images/posts/icon/shoucang.png"></image>
-      <text class="post-like-font">56</text>
-    </view>
-  </view>
+  </block>
 </view>
