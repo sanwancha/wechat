@@ -1,3 +1,5 @@
+<import src="post-item/post_item_template.wxml" />
+
 <view>
   <swiper indicator-dots="ture" autoplay="ture" interval="3000">
     <swiper-item>
@@ -11,20 +13,8 @@
     </swiper-item>
   </swiper>
   <block wx:for="{{postKey}}" wx:for-item="item">
-    <view class="post-container">
-      <view class="post-author-date">
-        <image wx:if="{{item.img_condition}}" class="post-author" src="{{item.avatar}}"></image>
-        <text class="post-date">{{item.date}}</text>
-      </view>
-      <text class="post-title">{{item.title}}</text>
-      <image class="post-image" src="{{item.image}}"></image>
-      <text class="post-content">{{item.content}}</text>
-      <view class="post-like">
-        <image class="post-like-image" src="../../images/posts/icon/icon_view.png"></image>
-        <text class="post-like-font">{{item.post_view}}</text>
-        <image class="post-like-image" src="../../images/posts/icon/icon_Collection.png"></image>
-        <text class="post-like-font">{{item.post_collection}}</text>
-      </view>
+    <view catchtap="onPostTap" data-postid="{{item.postid}}">
+      <template is="postItem" data="{{...item}}" />
     </view>
   </block>
 </view>

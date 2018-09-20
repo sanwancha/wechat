@@ -1,0 +1,16 @@
+<view>
+  <image src=""></image>
+  <view>
+    <image src=""></image>
+    <text>三碗茶</text>
+    <text>发表于</text>
+    <text>三前天</text>
+  </view>
+  <text>又是虾肥蟹壮时</text>
+  <view>
+  </view>
+  <view>
+    <image src=""></image>
+    <image src=""></image>
+  </view>
+</view>

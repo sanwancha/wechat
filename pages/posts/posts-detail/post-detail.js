@@ -1,5 +1,3 @@
-var postsData = require("../../data/posts_data.js")
-
 Page({
 
   /**
@@ -13,16 +11,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      this.setData({
-        postKey: postsData.postList
-        });
-  },
-
-  onPostTap:function(event){
-    var postid = event.currentTarget.dataset.postid;
-    wx.navigateTo({
-      url: "posts-detail/post-detail"
-    })
+    
   },
 
   /**

@@ -1,0 +1,72 @@
+var localDatabase = [
+  {
+    avatar: "../../images/posts/user_avatar/user-avatar1.png",
+    image: "../../images/posts/img_crab/img_crab1.jpg",
+    date: "Oct 25 2018",
+    title: "正是虾肥蟹壮时",
+    content: "“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。",
+    post_view: "48",
+    post_collection: "56",
+    img_condition: true,
+    postid:0,
+  },
+  {
+    avatar: "../../images/posts/user_avatar/user-avatar2.png",
+    image: "../../images/posts/img_crab/img_crab2.jpg",
+    date: "Oct 10 2018",
+    title: "正是虾肥蟹壮时",
+    content: "“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。",
+    post_view: "32",
+    post_collection: "66",
+    img_condition: true,
+    postid: 1,
+  },
+  {
+    avatar: "../../images/posts/user_avatar/user-avatar3.png",
+    image: "../../images/posts/img_crab/img_crab3.jpg",
+    date: "Oct 08 2018",
+    title: "正是虾肥蟹壮时",
+    content: "“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。",
+    post_view: "54",
+    post_collection: "32",
+    img_condition: true,
+    postid: 2,
+  },
+  {
+    avatar: "../../images/posts/user_avatar/user-avatar4.png",
+    image: "../../images/posts/img_crab/img_crab4.jpg",
+    date: "Oct 01 2018",
+    title: "正是虾肥蟹壮时",
+    content: "“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。",
+    post_view: "45",
+    post_collection: "78",
+    img_condition: true,
+    postid: 3,
+  },
+  {
+    avatar: "../../images/posts/user_avatar/user-avatar5.png",
+    image: "../../images/posts/img_crab/img_crab5.jpg",
+    date: "Sep 20 2018",
+    title: "正是虾肥蟹壮时",
+    content: "“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。",
+    post_view: "35",
+    post_collection: "78",
+    img_condition: true,
+    postid: 4,
+  },
+  {
+    avatar: "../../images/posts/user_avatar/user-avatar6.png",
+    image: "../../images/posts/img_crab/img_crab6.jpg",
+    date: "Sep 13 2018",
+    title: "正是虾肥蟹壮时",
+    content: "“菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的滴露”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“敖封嫩玉双双满”。",
+    post_view: "12",
+    post_collection: "35",
+    img_condition: true,
+    postid: 5,
+  }
+]
+
+module.exports = {
+  postList: localDatabase
+}
