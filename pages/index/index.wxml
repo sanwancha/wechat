@@ -1,7 +1,8 @@
 <view class="container">
-  <image class="user-avatar" src="/images/touxiang.jpg"></image>
-  <text class="user-name">hello 三碗茶</text>
+  <view class="test-bg">
+    <image class="bg-image" src="../../images/index/index_bg.png" mode="widthFix"></image>
+  </view>
   <view class="moto-conrainer" bindtap="onTap">
-    <text class="moto">开启小程序之旅</text>
+    <text class="moto">点击进入</text>
   </view>
 </view>
