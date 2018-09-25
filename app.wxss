@@ -1,3 +1,4 @@
 text{
   font-family: MicriSoft Yahei;
+  font-size: 24rpx;
 }

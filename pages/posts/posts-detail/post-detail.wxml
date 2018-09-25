@@ -1,16 +1,20 @@
-<view>
-  <image src=""></image>
-  <view>
-    <image src=""></image>
-    <text>三碗茶</text>
-    <text>发表于</text>
-    <text>三前天</text>
+<view class="container">
+  <image class="head-image" src="../../../images/posts/img_crab/img_crab1.jpg"></image>
+  <image class="audio" src="../../../images/posts/icon/audio.png"></image>
+  <view class="author-data">
+    <image class="avatar" src="../../../images/posts/user_avatar/user-avatar1.png"></image>
+    <text class="author">三碗茶</text>
+    <text class="const-text">发表于</text>
+    <text class="date">三前天</text>
   </view>
-  <text>又是虾肥蟹壮时</text>
-  <view>
+  <text class="title">又是虾肥蟹壮时</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image class="" src="../../../images/posts/icon/collection.png"></image>
+      <image class="share-img" src="../../../images/posts/icon/share.png"></image>
+    </view>
+    <view class="horizon"></view>
   </view>
-  <view>
-    <image src=""></image>
-    <image src=""></image>
-  </view>
+  <text class="detail">老螃蟹觉得不安了，觉得全身太硬了。自己知道要蜕壳了。他跑来跑去的寻。他想寻一个窟穴，躲了身子，将石子堵了穴口，隐隐的蜕壳。他知道外面蜕壳是危险的。身子还软，要被别的螃蟹吃去的。这并非空害怕，他实在亲眼见过。他慌慌张张的走。旁边的螃蟹问他说，“老兄，你何以这般慌？”他说，“我要蜕壳了。”“就在这里蜕不很好么？我还要帮你呢。”“那可太怕人了。”“你不怕窟穴里的别的东西，却怕我们同种么？”“我不是怕同种。”“那还怕什么呢？”“就怕你要吃掉我。”
+  </text>
 </view>
